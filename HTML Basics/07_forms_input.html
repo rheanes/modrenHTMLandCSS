@@ -7,6 +7,54 @@
   <title>Forms & Input</title>
 </head>
 <body>
-  
+  <form action="">
+    <div>
+      <label for="name">First Name</label>
+      <input type="text" name="name" id="name" value="Input Name">
+    </div>
+    <div>
+      <label for="lname">LastName</label>
+      <input type="text" name="lname" id="lname">
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter an email!">
+    </div>
+    <div>
+      <label for="message"></label>
+      <textarea name="message" id="message" cols="50" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+        <option value="male" selected>Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <br>
+      <input type="number" name="age" id="age">
+    </div>
+    <div>
+      <label for="birthday">Birth Date</label> <br>
+      <input type="date" name="birthday" id="birthday">
+    </div>
+    <div>
+      <label for="membership">Membership</label>
+      <input type="radio" name="membership" id="membership" value="simple">Simple
+      <input type="radio" name="membership" id="membership" value="standard" checked>Standard
+      <input type="radio" name="membership" id="membership" value="super">Super
+    </div>
+    <div>
+      <label for="interests">I like...</label>
+      <input type="checkbox" name="interests" id="pizza" checked>pizza
+      <input type="checkbox" name="interests" id="sports">sports
+      <input type="checkbox" name="interests" id="fitness">fitness
+    </div>
+    <input type="submit" value="submit">
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
