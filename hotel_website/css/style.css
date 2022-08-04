@@ -64,6 +64,9 @@ padding: 0 20px;
 .lead{
   font-size: 20px;
 }
+.clr{
+  clear: both;
+}
 
 /* navbar styling */
 #navbar{
@@ -150,4 +153,11 @@ padding: 0 20px;
 }
 .box i{
   margin-bottom: 10px;
+}
+/* Footer */
+#main-footer{
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
 }
