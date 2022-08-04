@@ -12,6 +12,8 @@
     <style>
       * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
         /* 
         -May want to add "border-box for "box-sizing so padding does not affect width
         -Reset margin and padding 
@@ -20,7 +22,7 @@
 
       body {
         background-color: #344a72;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Raleway, 'Courier New', Courier, monospace;
         /* 
           -Background color is #344a72
         */
@@ -36,7 +38,8 @@
       #container {
         margin: auto;
         max-width: 50%;
-        background-color: white;
+        padding-top: 35px;
+  
         /* 
         -Remember, margin: auto on left and right will center a block element 
         -I would also set a "max-width" for responsiveness
@@ -46,6 +49,7 @@
 
       .form-wrap {
         margin: auto;
+        background: white;
         /* 
           This is the white area around the form and heading, etc
         */
@@ -110,6 +114,7 @@
         margin-right: 10%;
         text-align: center;
         font-size: 14px;
+        padding-bottom: 10px;
         /* 
           Bottom text is smaller
         */
@@ -118,6 +123,7 @@
       footer {
         text-align: center;
         color: white;
+        padding-top: 20px;
         /* 
         Should be centered
        */
